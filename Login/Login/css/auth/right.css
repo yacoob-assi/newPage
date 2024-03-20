@@ -1,0 +1,84 @@
+#right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #5038ed, #9181f4);
+    height: 100%;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#right .background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../../images/background.png);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#right .imgContainer {
+    max-height: 350px;
+    height: 100%;
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+    width: 80%;
+    
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+
+    font-weight: 700;
+    z-index: 2;
+    background-color: rgb(136, 119, 243, 0.97);
+
+    transition: 0.5ms;
+}
+
+.imgContainer .login-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../images/female.png");
+    max-width: 430px;
+    min-width: 300px;
+    height: 363px;
+    bottom: 200px;
+    z-index: 3;
+}
+.login-img p {
+    width: 60%;
+}
+
+#power{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("../../images/power.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+    padding: 5px;
+    position: relative;
+    left: -45px;
+    background-color: white;
+}
+
+
+  /* Hide the container on small screens */
+@media only screen and (max-width: 700px) {
+    #right {
+        display: none; 
+    }
+}

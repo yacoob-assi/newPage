@@ -1,0 +1,75 @@
+
+#left {
+    flex: 1;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .input:first-child {
+    background-image: url(../../images/user.png);
+}
+
+form .input:nth-child(2) {
+    background-image: url(../../images/padlock.png);
+}
+form .input {
+    background-color: #f0edff;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-size: 25px;
+
+    &::placeholder {
+        color: #1c1c1c;
+
+    }
+}
+
+
+form .button {
+    width: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #9181f4, #5038ed);
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    border: 1px solid #f0edff;
+    color: #1c1c1c;
+    width: 100%;
+    text-align: center;
+}
+  
+.media {
+    width: 25x;
+    height: 25px;
+    position: relative;
+    left: -5px;
+    top: 5px;
+}
